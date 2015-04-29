@@ -1,0 +1,7 @@
+ EXPORTS
+    user_turn
+	ai_turn
+	status_cleanup
+	status_init
+	dead_heat
+	chk_win
