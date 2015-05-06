@@ -3,15 +3,15 @@
 #pragma comment(lib,"lib.lib")
 
 
-_gs gs;		/* make game status structure*/
+GsT gs;  /* make game status structure*/
 
 int main()
 {
-	wellcome(&gs);
+    wellcome(&gs);
 
-	while (gs.chr != '0')
-	{
-		draw_menu(&gs);
-		get_key(&gs);
-	}
+    while (gs.chr != '0')
+    {
+        draw_menu(&gs);
+        get_key(&gs);
+    }
 }
